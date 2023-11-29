@@ -1,32 +1,15 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
+import Backend from "i18next-http-backend";
 
-const resources = {
-  en: {
-    translation: {
-      test: "Hello",
-      title: "Wedding of Kenny and Yuri",
-      home: "Home",
-      location: "Location",
+i18n
+  .use(Backend)
+  .use(initReactI18next).init({
+    lng: navigator.language,
+    fallbackLng: "en",
+    interpolation: {
+      escapeValue: false,
     },
-  },
-  es: {
-    translation: {
-      test: "Hola",
-      title: "Boda de Kenny y Yuri",
-      home: "Inicio",
-      location: "Ubicación",
-    },
-  },
-};
-
-i18n.use(initReactI18next).init({
-  resources,
-  lng: navigator.language,
-  fallbackLng: "en",
-  interpolation: {
-    escapeValue: false,
-  },
 });
 
 export default i18n;
