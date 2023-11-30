@@ -1,9 +1,16 @@
 import { useTranslation } from "react-i18next";
 
+import countries from "i18n-iso-countries";
+import enLocale from "i18n-iso-countries/langs/en.json";
+import esLocale from "i18n-iso-countries/langs/es.json";
+
 import LanguageSelector from "./components/LanguageSelector";
 // import Hero from "./components/Hero";
 
-function App() {
+countries.registerLocale(enLocale);
+countries.registerLocale(esLocale);
+
+export default function App() {
   const { t } = useTranslation();
 
   return (
@@ -13,5 +20,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
