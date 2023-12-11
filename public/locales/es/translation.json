@@ -2,5 +2,10 @@
     "test": "Hola",
     "title": "Boda de Kenny & Elizabeth",
     "home": "Inicio",
-    "location": "Ubicación"
+    "location": "Ubicación",
+    "calendar": "Agendar Recordatorio",
+    "dress": "Vestimenta",
+    "dateHeader": "Estás invitado!",
+    "dateText": "Queremos que seas parte de este momento tan especial.",
+    "writtenDate": "02 de Marzo, 2024"
 }
