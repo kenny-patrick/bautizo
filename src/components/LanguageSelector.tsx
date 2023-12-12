@@ -31,8 +31,8 @@ export default function LanguageSelector() {
         autoWidth
         onChange={handleLanguageChange}
       >
-        <MenuItem value={"en"}>English</MenuItem>
-        <MenuItem value={"es"}>Español</MenuItem>
+        <MenuItem value={"en"}>🇺🇸 English</MenuItem>
+        <MenuItem value={"es"}>🇲🇽 Español</MenuItem>
       </Select>
     </FormControl>
   );
