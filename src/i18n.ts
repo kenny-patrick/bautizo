@@ -19,7 +19,7 @@ i18n
       escapeValue: false,
     },
     backend: {
-      loadPath: "/wedding-frontend/public/locales/{{lng}}/translation.json",
+      loadPath: `/wedding-frontend/public/locales/${lng}/translation.json`,
     },
   });
 
