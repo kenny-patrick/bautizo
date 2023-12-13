@@ -12,6 +12,7 @@ export default function LanguageSelector() {
 
   useEffect(() => {
     if (i18n.language) {
+      console.log(i18n);
       setLanguage(i18n.language);
     }
   }, [i18n.language]);
