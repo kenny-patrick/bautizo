@@ -3,8 +3,6 @@ import { initReactI18next } from "react-i18next";
 import Backend from "i18next-http-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
 
-const lng = localStorage.getItem("selectedLanguage");
-
 i18n
   .use(Backend)
   .use(initReactI18next)
@@ -17,9 +15,6 @@ i18n
     },
     interpolation: {
       escapeValue: false,
-    },
-    backend: {
-      loadPath: `/wedding-frontend/public/locales/${lng}/translation.json`,
     },
   });
 
