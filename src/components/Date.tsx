@@ -5,7 +5,7 @@ import { Box, Typography } from "@mui/material";
 
 export default function Date() {
   const { t, i18n } = useTranslation();
-  const language = i18n.language;
+  const language: any = i18n.language;
 
   return (
     <Box>

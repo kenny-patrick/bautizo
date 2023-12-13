@@ -4,12 +4,7 @@ import { useTranslation } from "react-i18next";
 // import MenuItem from "@mui/material/MenuItem";
 // import FormControl from "@mui/material/FormControl";
 // import Select, { SelectChangeEvent } from "@mui/material/Select";
-import {
-  Stack,
-  ToggleButtonGroup,
-  ToggleButton,
-  Typography,
-} from "@mui/material";
+import { Stack, ToggleButtonGroup, ToggleButton } from "@mui/material";
 
 export default function LanguageSelector() {
   const [language, setLanguage] = useState("");
@@ -26,7 +21,7 @@ export default function LanguageSelector() {
   //   i18n.changeLanguage(event.target.value as string);
   // };
   const handleLanguageChange = (
-    event: React.MouseEvent<HTMLElement>,
+    _event: React.MouseEvent<HTMLElement>,
     newLanguage: string,
   ) => {
     if (newLanguage != null) {
