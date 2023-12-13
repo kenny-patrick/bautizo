@@ -6,8 +6,10 @@ import Date from "./components/Date";
 import NavBar from "./components/NavBar";
 import Photos from "./components/Photos";
 import Location from "./components/Location";
+import Parents from "./components/Parents";
 
 import { Box } from "@mui/material";
+import Intro from "./components/Intro";
 
 countries.registerLocale(enLocale);
 countries.registerLocale(esLocale);
@@ -20,9 +22,12 @@ export default function App() {
         display="flex"
         flexDirection="column"
         justifyContent="center"
-        sx={{ padding: "12px" }}
+        padding="12px"
+        marginTop="12px"
       >
+        <Intro />
         <Date />
+        <Parents />
         <Location />
         <Photos />
       </Box>

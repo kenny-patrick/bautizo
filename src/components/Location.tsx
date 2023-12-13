@@ -10,10 +10,16 @@ export default function Location() {
       <Typography variant="h4">{t("locationHeader")}</Typography>
       <Card sx={{ maxWidth: "400px", textAlign: "center" }}>
         <CardContent>
-          <Typography variant="h6">Salón & Jardín Las Flores</Typography>
-          <Typography>Boulevard Las Bugambilias #801</Typography>
-          <Typography>Fraccionamiento Las Flores</Typography>
-          <Typography>Comitán de Domínguez, Chiapas, México</Typography>
+          <Typography variant="h5">Salón & Jardín Las Flores</Typography>
+          <Typography variant="subtitle1">
+            Boulevard Las Bugambilias #801
+          </Typography>
+          <Typography variant="subtitle1">
+            Fraccionamiento Las Flores
+          </Typography>
+          <Typography variant="subtitle1">
+            Comitán de Domínguez, Chiapas, México
+          </Typography>
           <Button
             onClick={() => {
               const newWindow = window.open(

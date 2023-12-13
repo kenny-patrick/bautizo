@@ -8,18 +8,21 @@ export default function NavBar() {
   const { t } = useTranslation();
   return (
     <Box>
-      <AppBar position="static">
+      <AppBar position="fixed">
         <Toolbar
           sx={{
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
+            paddingTop: "8px",
+            paddingBottom: "8px",
           }}
         >
           <Typography sx={{ flexGrow: 1 }}>{t("title")}</Typography>
           <LanguageSelector />
         </Toolbar>
       </AppBar>
+      <Toolbar />
     </Box>
   );
 }
