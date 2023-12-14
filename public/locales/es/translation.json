@@ -12,5 +12,8 @@
     "groomParents": "Padres del novio",
     "brideParents": "Padres de la novia",
     "padrinos": "Nuestros padrinos",
-    "ourWedding": "Nuestra boda"
+    "ourWedding": "Nuestra boda",
+    "dressCodeHeader": "Codigo de Vestimenta",
+    "dressCodeBody": "Formál",
+    "photosHeader": "Fotos"
 }
