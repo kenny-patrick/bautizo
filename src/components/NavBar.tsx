@@ -1,14 +1,11 @@
-import { AppBar, Box, Toolbar, Typography } from "@mui/material";
-
-import { useTranslation } from "react-i18next";
+import { AppBar, Box, Toolbar } from "@mui/material";
 
 import LanguageSelector from "./LanguageSelector";
 
 export default function NavBar() {
-  const { t } = useTranslation();
   return (
     <Box>
-      <AppBar position="fixed">
+      <AppBar position="fixed" sx={{ background: "#eeeeee" }}>
         <Toolbar
           sx={{
             display: "flex",
@@ -18,7 +15,12 @@ export default function NavBar() {
             paddingBottom: "8px",
           }}
         >
-          <Typography sx={{ flexGrow: 1 }}>{t("title")}</Typography>
+          <Box
+            component="img"
+            sx={{ width: "55px" }}
+            alt="Logo with K & E initials without wedding date"
+            src="/wedding-frontend/img/logo-nodate.png"
+          />
           <LanguageSelector />
         </Toolbar>
       </AppBar>

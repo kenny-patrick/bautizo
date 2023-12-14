@@ -9,6 +9,12 @@ export default function Intro() {
       <Typography variant="h4">Kenny</Typography>
       <Typography>&</Typography>
       <Typography variant="h4">Elizabeth</Typography>
+      <Box
+        component="img"
+        sx={{ width: "300px" }}
+        alt="Logo with K & E initials with wedding date"
+        src="/wedding-frontend/img/logo-withdate.png"
+      />
     </Box>
   );
 }
