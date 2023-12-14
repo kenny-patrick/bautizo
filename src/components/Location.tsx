@@ -1,4 +1,4 @@
-import { Box, Button, Card, CardContent, Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
 
 export default function Location() {
