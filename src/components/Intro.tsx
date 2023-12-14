@@ -11,9 +11,9 @@ export default function Intro() {
       <Typography variant="h4">Elizabeth</Typography>
       <Box
         component="img"
-        sx={{ width: "300px" }}
+        sx={{ width: "200px" }}
         alt="Logo with K & E initials with wedding date"
-        src="/wedding-frontend/img/logo-withdate.png"
+        src="/wedding-frontend/img/4.png"
       />
     </Box>
   );

@@ -17,7 +17,7 @@ export default function NavBar() {
         >
           <Box
             component="img"
-            sx={{ width: "55px" }}
+            sx={{ width: "45px" }}
             alt="Logo with K & E initials without wedding date"
             src="/wedding-frontend/img/logo-nodate.png"
           />
