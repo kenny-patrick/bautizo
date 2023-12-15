@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 export default function Timeline() {
   const { t } = useTranslation();
   return (
-    <Box>
+    <Box display="flex" flexDirection="column" alignItems="center">
       <Typography variant="h4">{t("timelineHeader")}</Typography>
       <Box
         display="flex"

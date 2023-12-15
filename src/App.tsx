@@ -15,6 +15,7 @@ import Rsvp from "./components/Rsvp";
 import Timer from "./components/Timer";
 import Children from "./components/Children";
 import Timeline from "./components/Timeline";
+import BibleVerse from "./components/BibleVerse";
 import Message from "./components/Message";
 
 countries.registerLocale(enLocale);
@@ -60,7 +61,7 @@ export default function App() {
         px={{ xs: 1, sm: 16, md: 32, lg: 48 }}
       >
         <ThemeProvider theme={customFontTheme}>
-          <Message />
+          <BibleVerse />
           <Parents />
           <Timer />
           <Date />
@@ -70,6 +71,7 @@ export default function App() {
           <Photos />
           <Children />
           <Rsvp />
+          <Message />
         </ThemeProvider>
       </Box>
     </div>

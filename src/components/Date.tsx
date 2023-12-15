@@ -9,7 +9,7 @@ export default function Date() {
   const language: any = i18n.language;
 
   return (
-    <Box>
+    <Box display="flex" flexDirection="column" alignItems="center">
       <Typography variant="h4">{t("dateHeader")}</Typography>
       <Typography variant="body1">{t("dateText")}</Typography>
       <AddToCalendarButton

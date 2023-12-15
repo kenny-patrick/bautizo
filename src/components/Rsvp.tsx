@@ -17,7 +17,7 @@ export default function Rsvp() {
   };
 
   return (
-    <Box>
+    <Box display="flex" flexDirection="column" alignItems="center">
       <Typography variant="h4">{t("rsvpHeader")}</Typography>
       <Typography>{t("rsvpBody")}</Typography>
       <Button onClick={buttonClick} variant="contained">

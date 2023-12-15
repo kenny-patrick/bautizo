@@ -11,9 +11,13 @@ export default function Photos() {
   const [index, setIndex] = useState(-1);
 
   return (
-    <Box>
-      <Typography variant="h4">{t("photosHeader")}</Typography>
-      <Typography variant="subtitle1">{t("photosBody")}</Typography>
+    <Box display="flex" flexDirection="column">
+      <Typography variant="h4" alignSelf="center">
+        {t("photosHeader")}
+      </Typography>
+      <Typography variant="subtitle1" alignSelf="center">
+        {t("photosBody")}
+      </Typography>
       <Box maxWidth="800px">
         <PhotoAlbum
           layout="columns"

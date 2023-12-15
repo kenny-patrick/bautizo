@@ -6,8 +6,9 @@ export default function Location() {
   const mapsUrl = "https://maps.app.goo.gl/6xRniWFUR7vAYqhZ8";
 
   return (
-    <Box>
+    <Box display="flex" flexDirection="column" alignItems="center">
       <Typography variant="h4">{t("locationHeader")}</Typography>
+
       <Card
         sx={{
           padding: "12px",
