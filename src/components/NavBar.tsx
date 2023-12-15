@@ -19,7 +19,7 @@ export default function NavBar() {
             component="img"
             sx={{ width: "45px" }}
             alt="Logo with K & E initials without wedding date"
-            src="/wedding-frontend/img/logo-nodate.png"
+            src="/wedding/img/logo-nodate.png"
           />
           <LanguageSelector />
         </Toolbar>

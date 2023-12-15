@@ -1,9 +1,9 @@
 {
-  "name": "wedding-frontend",
+  "name": "wedding",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kenny-patrick.github.io/wedding-frontend/",
+  "homepage": "https://kenny-patrick.github.io/wedding/",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",

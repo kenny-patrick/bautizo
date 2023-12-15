@@ -18,7 +18,7 @@ export default function Intro() {
         component="img"
         sx={{ width: "200px" }}
         alt="Logo with K & E initials with wedding date"
-        src="/wedding-frontend/img/4.png"
+        src="/wedding/img/4.png"
       />
     </Box>
   );

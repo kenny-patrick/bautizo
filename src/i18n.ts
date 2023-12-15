@@ -18,7 +18,7 @@ i18n
       escapeValue: false,
     },
     backend: {
-      loadPath: `/wedding-frontend/locales/{{lng}}/translation.json`,
+      loadPath: `/wedding/locales/{{lng}}/translation.json`,
     },
   });
 
