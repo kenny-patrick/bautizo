@@ -19,5 +19,15 @@
     "photosBody": "Click a photo to expand",
     "rsvpHeader": "RSVP",
     "rsvpBody": "If you will be in attendence, please click the button below",
-    "rsvpButton": "Confirm"
+    "rsvpButton": "Confirm",
+    "timerHeader": "Countdown...",
+    "daysSingular": "Day",
+    "daysPlural": "Days",
+    "hoursSingular": "Hour",
+    "hoursPlural": "Hours",
+    "minutesSingular": "Minute",
+    "minutesPlural": "Minutes",
+    "secondsSingular": "Second",
+    "secondsPlural": "Seconds",
+    "countdownComplete": "It's time!"
 }

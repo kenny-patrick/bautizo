@@ -11,7 +11,6 @@ export default function Parents() {
       <Typography variant="h6">{t("brideParents")}</Typography>
       <Typography variant="subtitle2">Manuel Aguilar Espinosa</Typography>
       <Typography variant="subtitle2">Roselia Díaz Aguilar</Typography>
-      <Typography variant="h6">{t("padrinos")}</Typography>
     </Box>
   );
 }

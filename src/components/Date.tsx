@@ -17,7 +17,7 @@ export default function Date() {
         location="LAS FLORES SALON Y JARDIN, Boulevard Las Bugambilias, Fraccionamiento Las Flores 801, El Herraje, 30019 Comitán de Domínguez, Chis., Mexico"
         startDate="2024-03-02"
         endDate="2024-03-03"
-        startTime="18:00"
+        startTime="20:00"
         endTime="04:00"
         timeZone="America/Mexico_City"
         options={[
