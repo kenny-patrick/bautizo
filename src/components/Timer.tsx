@@ -61,7 +61,7 @@ export default function Timer() {
       );
     }
   };
-  const date = Date.parse("03 Mar 2024 02:00:00 GMT");
+  const date = Date.parse("03 Mar 2024 00:00:00 GMT");
   return (
     <Box
       display="flex"

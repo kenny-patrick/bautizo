@@ -30,5 +30,15 @@
     "secondsPlural": "Seconds",
     "countdownComplete": "It's time!",
     "childrenHeader": "Children welcome",
-    "childrenBody": "We love children and we want them to enjoy themselves at the reception. We kindly ask that all children be supervised by an adult at all times to avoid accidents."
+    "childrenBody": "We love children and we want them to enjoy themselves at the reception. We kindly ask that all children be supervised by an adult at all times to avoid accidents.",
+    "timelineHeader": "Itinerary",
+    "timelineCeremony": "Ceremony",
+    "timelineReception": "Reception",
+    "timelineDance": "First Dance",
+    "timelineToast": "Toast",
+    "timelineDinner": "Dinner",
+    "timelineEnd": "End",
+    "bibleText": "Más valen dos que uno, porque obtienen más fruto de su esfuerzo. Si caen, el uno levanta al otro.",
+    "bibleVerse": "Eclesiastés 4:9-10",
+    "blessing": "With the blessings of God and our parents"
 }

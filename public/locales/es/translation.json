@@ -30,5 +30,15 @@
     "secondsPlural": "Segundos",
     "countdownComplete": "¡Ya es tiempo!",
     "childrenHeader": "Niños bienvenidos",
-    "childrenBody": "Nosotros amamos a los niños y queremos que se la pasen bien, es por eso que con mucho cariño pedimos cuidarlos y mantenerlos supervisados por un adulto en todo momento, para evitar accidentes."
+    "childrenBody": "Nosotros amamos a los niños y queremos que se la pasen bien, es por eso que con mucho cariño pedimos cuidarlos y mantenerlos supervisados por un adulto en todo momento, para evitar accidentes.",
+    "timelineHeader": "Itinerario",
+    "timelineCeremony": "Ceremonia",
+    "timelineReception": "Recepción",
+    "timelineDance": "Vals",
+    "timelineToast": "Brindis",
+    "timelineDinner": "Cena",
+    "timelineEnd": "Final",
+    "bibleText": "Más valen dos que uno, porque obtienen más fruto de su esfuerzo. Si caen, el uno levanta al otro.",
+    "bibleVerse": "Eclesiastés 4:9-10",
+    "blessing": "Con la bendición de Dios y de nuestros padres"
 }

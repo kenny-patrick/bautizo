@@ -4,7 +4,8 @@ import { useTranslation } from "react-i18next";
 export default function Parents() {
   const { t } = useTranslation();
   return (
-    <Box>
+    <Box display="flex" flexDirection="column" alignItems="center">
+      <Typography>{t("blessing")}</Typography>
       <Typography variant="h6">{t("groomParents")}</Typography>
       <Typography variant="subtitle2">Brian Patrick</Typography>
       <Typography variant="subtitle2">Veronica Sauceda de la Fuente</Typography>

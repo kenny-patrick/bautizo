@@ -14,6 +14,8 @@ import DressCode from "./components/DressCode";
 import Rsvp from "./components/Rsvp";
 import Timer from "./components/Timer";
 import Children from "./components/Children";
+import Timeline from "./components/Timeline";
+import Message from "./components/Message";
 
 countries.registerLocale(enLocale);
 countries.registerLocale(esLocale);
@@ -48,7 +50,6 @@ export default function App() {
     <div>
       <NavBar></NavBar>
       <Intro />
-      <Timer />
       <Box
         display="flex"
         flexDirection="column"
@@ -59,9 +60,12 @@ export default function App() {
         px={{ xs: 1, sm: 16, md: 32, lg: 48 }}
       >
         <ThemeProvider theme={customFontTheme}>
-          <Date />
+          <Message />
           <Parents />
+          <Timer />
+          <Date />
           <DressCode />
+          <Timeline />
           <Location />
           <Photos />
           <Children />
