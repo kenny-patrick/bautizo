@@ -13,6 +13,7 @@ import Intro from "./components/Intro";
 import DressCode from "./components/DressCode";
 import Rsvp from "./components/Rsvp";
 import Timer from "./components/Timer";
+import Children from "./components/Children";
 
 countries.registerLocale(enLocale);
 countries.registerLocale(esLocale);
@@ -53,15 +54,18 @@ export default function App() {
         flexDirection="column"
         justifyContent="center"
         padding="12px"
+        paddingBottom="48px"
+        gap="24px"
         px={{ xs: 1, sm: 16, md: 32, lg: 48 }}
       >
         <ThemeProvider theme={customFontTheme}>
           <Date />
           <Parents />
-          <Location />
           <DressCode />
-          <Rsvp />
+          <Location />
           <Photos />
+          <Children />
+          <Rsvp />
         </ThemeProvider>
       </Box>
     </div>

@@ -9,9 +9,7 @@ export default function DressCode() {
       <Typography variant="h4" alignSelf="flex-start">
         {t("dressCodeHeader")}
       </Typography>
-
-      <Typography>{t("dressCodeBody")}</Typography>
-
+      <Typography>{t("dressCodeBody")}</Typography>ñ
       <Box display="flex" paddingTop="12px">
         <Box
           component="img"

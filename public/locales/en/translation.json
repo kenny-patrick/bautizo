@@ -28,5 +28,7 @@
     "minutesPlural": "Minutes",
     "secondsSingular": "Second",
     "secondsPlural": "Seconds",
-    "countdownComplete": "It's time!"
+    "countdownComplete": "It's time!",
+    "childrenHeader": "Children welcome",
+    "childrenBody": "We love children and we want them to enjoy themselves at the reception. We kindly ask that all children be supervised by an adult at all times to avoid accidents."
 }

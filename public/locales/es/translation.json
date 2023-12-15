@@ -28,5 +28,7 @@
     "minutesPlural": "Minutos",
     "secondsSingular": "Segundo",
     "secondsPlural": "Segundos",
-    "countdownComplete": "¡Ya es tiempo!"
+    "countdownComplete": "¡Ya es tiempo!",
+    "childrenHeader": "Niños bienvenidos",
+    "childrenBody": "Nosotros amamos a los niños y queremos que se la pasen bien, es por eso que con mucho cariño pedimos cuidarlos y mantenerlos supervisados por un adulto en todo momento, para evitar accidentes."
 }
