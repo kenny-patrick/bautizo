@@ -8,28 +8,30 @@ export default function Location() {
   return (
     <Box>
       <Typography variant="h4">{t("locationHeader")}</Typography>
-      <Typography variant="h6">Salón & Jardín Las Flores</Typography>
-      <Typography variant="subtitle1">
-        Boulevard Las Bugambilias #801
-      </Typography>
-      <Typography variant="subtitle1">Fraccionamiento Las Flores</Typography>
-      <Typography variant="subtitle1">
-        Comitán de Domínguez, Chiapas, México
-      </Typography>
-      <Button
-        onClick={() => {
-          const newWindow = window.open(
-            mapsUrl,
-            "_blank",
-            "noopener,noreferrer",
-          );
-          if (newWindow) newWindow.opener = null;
-        }}
-        variant="contained"
-        sx={{ marginTop: "12px" }}
-      >
-        {t("mapButton")}
-      </Button>
+      <Box display="flex" flexDirection="column" alignItems="center">
+        <Typography variant="h6">Salón & Jardín Las Flores</Typography>
+        <Typography variant="subtitle1">
+          Boulevard Las Bugambilias #801
+        </Typography>
+        <Typography variant="subtitle1">Fraccionamiento Las Flores</Typography>
+        <Typography variant="subtitle1">
+          Comitán de Domínguez, Chiapas, México
+        </Typography>
+        <Button
+          onClick={() => {
+            const newWindow = window.open(
+              mapsUrl,
+              "_blank",
+              "noopener,noreferrer",
+            );
+            if (newWindow) newWindow.opener = null;
+          }}
+          variant="contained"
+          sx={{ marginTop: "12px" }}
+        >
+          {t("mapButton")}
+        </Button>
+      </Box>
     </Box>
   );
 }

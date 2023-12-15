@@ -1,9 +1,5 @@
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-// import InputLabel from "@mui/material/InputLabel";
-// import MenuItem from "@mui/material/MenuItem";
-// import FormControl from "@mui/material/FormControl";
-// import Select, { SelectChangeEvent } from "@mui/material/Select";
 import { Stack, ToggleButtonGroup, ToggleButton } from "@mui/material";
 
 export default function LanguageSelector() {
@@ -12,15 +8,10 @@ export default function LanguageSelector() {
 
   useEffect(() => {
     if (i18n.language) {
-      console.log(i18n);
-      setLanguage(i18n.language);
+      setLanguage(i18n.language.substring(0, 2));
     }
-  }, [i18n.language]);
+  }, [i18n]);
 
-  // const handleLanguageChange = (event: SelectChangeEvent) => {
-  //   setLanguage(event.target.value as string);
-  //   i18n.changeLanguage(event.target.value as string);
-  // };
   const handleLanguageChange = (
     _event: React.MouseEvent<HTMLElement>,
     newLanguage: string,
@@ -28,33 +19,19 @@ export default function LanguageSelector() {
     if (newLanguage != null) {
       setLanguage(newLanguage);
       i18n.changeLanguage(newLanguage);
+      console.log(`Language change: ${newLanguage}`);
     }
   };
 
   return (
-    // <FormControl sx={{ m: 1, minWidth: 130 }}>
-    //   <InputLabel id="language-select-label">Idioma/Language</InputLabel>
-    //   <Select
-    //     labelId="language-select-label"
-    //     id="language-select"
-    //     value={language}
-    //     label="Idioma/Language"
-    //     autoWidth
-    //     onChange={handleLanguageChange}
-    //   >
-    //     <MenuItem value={"en"}>🇺🇸 English</MenuItem>
-    //     <MenuItem value={"es"}>🇲🇽 Español</MenuItem>
-    //   </Select>
-    // </FormControl>
     <Stack direction="column">
-      {/* <Typography variant="subtitle2">Idioma/Language:</Typography> */}
       <ToggleButtonGroup
         value={language}
         exclusive
         onChange={handleLanguageChange}
       >
-        <ToggleButton value="en">🇺🇸 En</ToggleButton>
-        <ToggleButton value="es">🇲🇽 Es</ToggleButton>
+        <ToggleButton value={"en"}>🇺🇸 En</ToggleButton>
+        <ToggleButton value={"es"}>🇲🇽 Es</ToggleButton>
       </ToggleButtonGroup>
     </Stack>
   );

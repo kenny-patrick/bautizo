@@ -13,6 +13,7 @@ export default function Photos() {
   return (
     <Box>
       <Typography variant="h4">{t("photosHeader")}</Typography>
+      <Typography variant="subtitle1">{t("photosBody")}</Typography>
       <Box maxWidth="800px">
         <PhotoAlbum
           layout="rows"

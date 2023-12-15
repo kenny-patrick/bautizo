@@ -15,9 +15,5 @@ module.exports = {
       "warn",
       { allowConstantExport: true },
     ],
-    options: {
-      failOnError: false,
-      failOnWarning: false,
-    },
   },
 };

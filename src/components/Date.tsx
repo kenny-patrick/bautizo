@@ -5,6 +5,7 @@ import { Box, Typography } from "@mui/material";
 
 export default function Date() {
   const { t, i18n } = useTranslation();
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const language: any = i18n.language;
 
   return (

@@ -15,5 +15,9 @@
     "ourWedding": "Our Wedding",
     "dressCodeHeader": "Dress Code",
     "dressCodeBody": "Formal",
-    "photosHeader": "Photos"
+    "photosHeader": "Photos",
+    "photosBody": "Click a photo to expand",
+    "rsvpHeader": "RSVP",
+    "rsvpBody": "If you will be in attendence, please click the button below",
+    "rsvpButton": "Confirm"
 }
