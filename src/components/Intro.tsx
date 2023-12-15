@@ -1,6 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
 
+// Photo: 7349 7225
 export default function Intro() {
   const { t } = useTranslation();
   return (

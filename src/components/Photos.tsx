@@ -16,10 +16,10 @@ export default function Photos() {
       <Typography variant="subtitle1">{t("photosBody")}</Typography>
       <Box maxWidth="800px">
         <PhotoAlbum
-          layout="rows"
+          layout="columns"
           photos={slides}
           targetRowHeight={200}
-          rowConstraints={{ maxPhotos: 3 }}
+          rowConstraints={{ maxPhotos: 4 }}
           onClick={({ index: current }) => setIndex(current)}
         />
         <Lightbox
