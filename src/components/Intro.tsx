@@ -10,7 +10,6 @@ export default function Intro() {
       fontFamily: ["Playfair Display Variable", "serif"].join(","),
       h4: {
         fontWeight: 600,
-        color: "skyblue",
       },
     },
   });

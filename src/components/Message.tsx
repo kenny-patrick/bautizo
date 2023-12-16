@@ -8,8 +8,8 @@ export default function Message() {
       <Box
         component="img"
         sx={{ width: "100px" }}
-        alt="Blue logo with K & E initials without wedding date"
-        src="/wedding/img/logo_nodate_blue.png"
+        alt="Logo with K & E initials without wedding date"
+        src="/wedding/img/logo-nodate.png"
       />
       <Typography>{t("finalMessage")}</Typography>
       <Typography variant="h4">{t("goodbye")}</Typography>
