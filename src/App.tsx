@@ -17,6 +17,8 @@ import Children from "./components/Children";
 import Timeline from "./components/Timeline";
 import BibleVerse from "./components/BibleVerse";
 import Message from "./components/Message";
+import TopBorder from "./components/TopBorder";
+import BottomBorder from "./components/BottomBorder";
 
 countries.registerLocale(enLocale);
 countries.registerLocale(esLocale);
@@ -50,7 +52,7 @@ export default function App() {
   return (
     <div>
       <NavBar></NavBar>
-      <Intro />
+      <TopBorder />
       <Box
         display="flex"
         flexDirection="column"
@@ -61,6 +63,7 @@ export default function App() {
         px={{ xs: 1, sm: 16, md: 32, lg: 48 }}
       >
         <ThemeProvider theme={customFontTheme}>
+          <Intro />
           <BibleVerse />
           <Parents />
           <Timer />
@@ -74,6 +77,7 @@ export default function App() {
           <Message />
         </ThemeProvider>
       </Box>
+      <BottomBorder />
     </div>
   );
 }
