@@ -37,7 +37,7 @@ export default function Timer() {
       const minutesStr = minutes === 1 ? "minutesSingular" : "minutesPlural";
       const secondsStr = seconds === 1 ? "secondsSingular" : "secondsPlural";
       return (
-        <Box display="flex">
+        <Box display="flex" gap="12px">
           <Stack alignItems="center">
             <Typography variant="h2">{days}</Typography>
             <Typography variant="subtitle2">{t(daysStr)}</Typography>
