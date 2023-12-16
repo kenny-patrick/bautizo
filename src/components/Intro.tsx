@@ -30,6 +30,8 @@ export default function Intro() {
       display="flex"
       flexDirection="column"
       alignItems="center"
+      paddingLeft="12px"
+      paddingRight="12px"
     >
       <ThemeProvider theme={ourWeddingFont}>
         <Typography variant="h4">{t("ourWedding")}</Typography>
@@ -43,9 +45,10 @@ export default function Intro() {
 
       <Box
         component="img"
-        sx={{ width: "200px" }}
-        alt="Logo with K & E initials with wedding date"
-        src="/wedding/img/4.png"
+        paddingTop="12px"
+        sx={{ width: "350px" }}
+        alt="Photo with car in Comitan park"
+        src="/wedding/img/_DSC7349ALPE copia.jpg"
       />
     </Box>
   );
