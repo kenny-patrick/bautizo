@@ -16,7 +16,7 @@ export default function Timeline() {
         <Box display="flex" flexDirection="column" alignItems="center">
           <Box
             component="img"
-            sx={{ width: "100px" }}
+            sx={{ width: "70px" }}
             alt="Logo with K & E initials without wedding date"
             src="/wedding/img/6pm_ceremony_blue.jpeg"
           />
@@ -26,7 +26,7 @@ export default function Timeline() {
         <Box display="flex" flexDirection="column" alignItems="center">
           <Box
             component="img"
-            sx={{ width: "100px" }}
+            sx={{ width: "70px" }}
             alt="Logo with K & E initials without wedding date"
             src="/wedding/img/745pm_reception_blue.jpeg"
           />
@@ -36,7 +36,7 @@ export default function Timeline() {
         <Box display="flex" flexDirection="column" alignItems="center">
           <Box
             component="img"
-            sx={{ width: "100px" }}
+            sx={{ width: "70px" }}
             alt="Logo with K & E initials without wedding date"
             src="/wedding/img/8pm_dance_blue.jpeg"
           />
@@ -46,7 +46,7 @@ export default function Timeline() {
         <Box display="flex" flexDirection="column" alignItems="center">
           <Box
             component="img"
-            sx={{ width: "100px" }}
+            sx={{ width: "70px" }}
             alt="Logo with K & E initials without wedding date"
             src="/wedding/img/845pm_toast_blue.jpeg"
           />
@@ -56,7 +56,7 @@ export default function Timeline() {
         <Box display="flex" flexDirection="column" alignItems="center">
           <Box
             component="img"
-            sx={{ width: "100px" }}
+            sx={{ width: "70px" }}
             alt="Logo with K & E initials without wedding date"
             src="/wedding/img/9pm_dinner_blue.jpeg"
           />
@@ -66,7 +66,7 @@ export default function Timeline() {
         <Box display="flex" flexDirection="column" alignItems="center">
           <Box
             component="img"
-            sx={{ width: "100px" }}
+            sx={{ width: "70px" }}
             alt="Logo with K & E initials without wedding date"
             src="/wedding/img/3am_end_blue.jpeg"
           />
