@@ -19,6 +19,7 @@ import BibleVerse from "./components/BibleVerse";
 import Message from "./components/Message";
 import TopBorder from "./components/TopBorder";
 import BottomBorder from "./components/BottomBorder";
+import Audio from "./components/Audio";
 
 countries.registerLocale(enLocale);
 countries.registerLocale(esLocale);
@@ -64,6 +65,7 @@ export default function App() {
       >
         <ThemeProvider theme={customFontTheme}>
           <Intro />
+          <Audio />
           <BibleVerse />
           <Parents />
           <Timer />
