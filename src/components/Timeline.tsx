@@ -13,7 +13,12 @@ export default function Timeline() {
         justifyContent="center"
         gap="24px"
       >
-        <Box display="flex" flexDirection="column" alignItems="center">
+        <Box
+          display="flex"
+          flexDirection="column"
+          alignItems="center"
+          textAlign="center"
+        >
           <Box
             component="img"
             sx={{ width: "70px" }}
