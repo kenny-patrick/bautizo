@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 export default function BibleVerse() {
   const { t } = useTranslation();
   return (
-    <Box display="flex">
+    <Box display="flex" flexDirection="column" alignItems="center">
       <Box
         display="flex"
         flexDirection="column"
@@ -16,8 +16,8 @@ export default function BibleVerse() {
       </Box>
       <Box
         component="img"
-        sx={{ width: "200px" }}
-        alt="Logo with K & E initials without wedding date"
+        sx={{ width: "96px" }}
+        alt="Image of two lovebirds"
         src="/wedding/img/birds_blue.jpeg"
       />
     </Box>

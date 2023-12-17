@@ -6,12 +6,12 @@ export default function Parents() {
   return (
     <Box display="flex" flexDirection="column" alignItems="center">
       <Typography>{t("blessing")}</Typography>
-      <Typography variant="h4" paddingTop="24px">
+      <Typography variant="h6" paddingTop="24px">
         {t("groomParents")}
       </Typography>
       <Typography>Brian William Patrick</Typography>
       <Typography>Veronica Sauceda de la Fuente</Typography>
-      <Typography variant="h4">{t("brideParents")}</Typography>
+      <Typography variant="h6">{t("brideParents")}</Typography>
       <Typography>Manuel Aguilar Espinosa</Typography>
       <Typography>Roselia Díaz Aguilar</Typography>
     </Box>
