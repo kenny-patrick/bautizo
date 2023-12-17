@@ -14,7 +14,7 @@ export default function Timer() {
   const countdownTheme = createTheme({
     typography: {
       fontFamily: ["Playfair Display Variable", "serif"].join(","),
-      h4: {
+      h5: {
         fontFamily: ["Norican", "sans-serif"].join(","),
         fontWeight: 600,
         color: "skyblue",
@@ -70,7 +70,7 @@ export default function Timer() {
       paddingTop="24px"
     >
       <ThemeProvider theme={countdownTheme}>
-        <Typography variant="h4">{t("timerHeader")}</Typography>
+        <Typography variant="h5">{t("timerHeader")}</Typography>
         <Countdown date={date} renderer={renderer} />
       </ThemeProvider>
     </Box>

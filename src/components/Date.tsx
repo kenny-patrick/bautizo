@@ -10,7 +10,7 @@ export default function Date() {
 
   return (
     <Box display="flex" flexDirection="column" alignItems="center">
-      <Typography variant="h4">{t("dateHeader")}</Typography>
+      <Typography variant="h5">{t("dateHeader")}</Typography>
       <Typography variant="body1">{t("dateText")}</Typography>
       <AddToCalendarButton
         name={t("title")}

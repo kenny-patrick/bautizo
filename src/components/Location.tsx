@@ -7,7 +7,7 @@ export default function Location() {
 
   return (
     <Box display="flex" flexDirection="column" alignItems="center">
-      <Typography variant="h4">{t("locationHeader")}</Typography>
+      <Typography variant="h5">{t("locationHeader")}</Typography>
 
       <Card
         sx={{

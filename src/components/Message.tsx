@@ -18,7 +18,7 @@ export default function Message() {
         src="/wedding/img/logo-nodate.png"
       />
       <Typography>{t("finalMessage")}</Typography>
-      <Typography variant="h4">{t("goodbye")}</Typography>
+      <Typography variant="h5">{t("goodbye")}</Typography>
     </Box>
   );
 }

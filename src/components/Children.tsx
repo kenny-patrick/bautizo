@@ -11,7 +11,7 @@ export default function Children() {
       alignItems="center"
       textAlign="center"
     >
-      <Typography variant="h4">{t("childrenHeader")}</Typography>
+      <Typography variant="h5">{t("childrenHeader")}</Typography>
       <Typography>{t("childrenBody")}</Typography>
     </Box>
   );

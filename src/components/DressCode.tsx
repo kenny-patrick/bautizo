@@ -6,7 +6,7 @@ export default function DressCode() {
 
   return (
     <Box display="flex" flexDirection="column" alignItems="center">
-      <Typography variant="h4">{t("dressCodeHeader")}</Typography>
+      <Typography variant="h5">{t("dressCodeHeader")}</Typography>
       <Typography>{t("dressCodeBody")}</Typography>
       <Box display="flex" paddingTop="12px">
         <Box

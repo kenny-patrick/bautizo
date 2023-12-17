@@ -12,7 +12,7 @@ export default function Photos() {
 
   return (
     <Box display="flex" flexDirection="column">
-      <Typography variant="h4" alignSelf="center">
+      <Typography variant="h5" alignSelf="center">
         {t("photosHeader")}
       </Typography>
       <Typography variant="subtitle1" alignSelf="center">

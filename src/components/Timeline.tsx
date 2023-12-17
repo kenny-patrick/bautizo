@@ -5,7 +5,7 @@ export default function Timeline() {
   const { t } = useTranslation();
   return (
     <Box display="flex" flexDirection="column" alignItems="center">
-      <Typography variant="h4">{t("timelineHeader")}</Typography>
+      <Typography variant="h5">{t("timelineHeader")}</Typography>
       <Box
         display="flex"
         flexDirection="row"
