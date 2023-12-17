@@ -10,7 +10,7 @@ export default function BottomBorder() {
       paddingTop="24px"
     >
       <Box
-        sx={{ width: "100%" }}
+        sx={{ width: { md: "100%", lg: "900px" } }}
         component="img"
         alt="Floral Top Border"
         src="/wedding/img/bottom_border1.png"
