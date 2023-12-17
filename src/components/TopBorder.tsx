@@ -9,7 +9,7 @@ export default function TopBorder() {
       marginBottom="-100px"
     >
       <Box
-        sx={{ width: "100%" }}
+        sx={{ width: { xs: "100%", sm: "100%", md: "100%", lg: "900px" } }}
         component="img"
         alt="Floral Top Border"
         src="/wedding/img/top_border1.png"
