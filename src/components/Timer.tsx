@@ -39,22 +39,22 @@ export default function Timer() {
       return (
         <Box display="flex" gap="12px">
           <Stack alignItems="center">
-            <Typography variant="h2">{days}</Typography>
+            <Typography variant="h3">{days}</Typography>
             <Typography variant="subtitle2">{t(daysStr)}</Typography>
           </Stack>
-          <Typography variant="h2"> : </Typography>
+          <Typography variant="h3"> : </Typography>
           <Stack alignItems="center">
-            <Typography variant="h2">{hours}</Typography>
+            <Typography variant="h3">{hours}</Typography>
             <Typography variant="subtitle2">{t(hoursStr)}</Typography>
           </Stack>
-          <Typography variant="h2"> : </Typography>
+          <Typography variant="h3"> : </Typography>
           <Stack alignItems="center">
-            <Typography variant="h2">{minutes}</Typography>
+            <Typography variant="h3">{minutes}</Typography>
             <Typography variant="subtitle2">{t(minutesStr)}</Typography>
           </Stack>
-          <Typography variant="h2"> : </Typography>
+          <Typography variant="h3"> : </Typography>
           <Stack alignItems="center">
-            <Typography variant="h2">{seconds}</Typography>
+            <Typography variant="h3">{seconds}</Typography>
             <Typography variant="subtitle2">{t(secondsStr)}</Typography>
           </Stack>
         </Box>
