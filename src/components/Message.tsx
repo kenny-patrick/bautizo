@@ -4,7 +4,13 @@ import { useTranslation } from "react-i18next";
 export default function Message() {
   const { t } = useTranslation();
   return (
-    <Box display="flex" flexDirection="column" alignItems="center" gap="12px">
+    <Box
+      display="flex"
+      flexDirection="column"
+      alignItems="center"
+      textAlign="center"
+      gap="12px"
+    >
       <Box
         component="img"
         sx={{ width: "100px" }}

@@ -5,7 +5,12 @@ export default function Children() {
   const { t } = useTranslation();
 
   return (
-    <Box display="flex" flexDirection="column" alignItems="center">
+    <Box
+      display="flex"
+      flexDirection="column"
+      alignItems="center"
+      textAlign="center"
+    >
       <Typography variant="h4">{t("childrenHeader")}</Typography>
       <Typography>{t("childrenBody")}</Typography>
     </Box>

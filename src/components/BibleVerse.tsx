@@ -10,6 +10,7 @@ export default function BibleVerse() {
         flexDirection="column"
         alignItems="center"
         justifyContent="center"
+        textAlign="center"
       >
         <Typography>{t("bibleText")}</Typography>
         <Typography>{t("bibleVerse")}</Typography>
