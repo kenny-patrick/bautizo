@@ -25,7 +25,7 @@ export default function DressCode() {
           component="img"
           sx={{ width: "96px" }}
           alt="Image of a men's formal shirt"
-          src="/wedding/img/shirt.png"
+          src="/wedding/img/dressed_man.jpeg"
         />
       </Box>
     </Box>
