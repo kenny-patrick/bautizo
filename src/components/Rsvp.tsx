@@ -25,6 +25,9 @@ export default function Rsvp() {
     >
       <Typography variant="h5">{t("rsvpHeader")}</Typography>
       <Typography>{t("rsvpBody")}</Typography>
+      <Typography paddingTop="12px" paddingBottom="12px">
+        {t("rsvpDeadline")}
+      </Typography>
       <Button onClick={buttonClick} variant="contained">
         {t("rsvpButton")}
       </Button>
