@@ -17,6 +17,7 @@ export default function Timer() {
       h4: {
         fontFamily: ["Playfair Display Variable", "serif"].join(","),
         fontweight: 600,
+        fontSize: "24px",
       },
       h5: {
         fontFamily: ["Norican", "sans-serif"].join(","),
