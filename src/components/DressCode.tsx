@@ -1,13 +1,11 @@
 import { Box, Typography } from "@mui/material";
-import { useTranslation } from "react-i18next";
 
 export default function DressCode() {
-  const { t } = useTranslation();
 
   return (
     <Box display="flex" flexDirection="column" alignItems="center">
-      <Typography variant="h5">{t("dressCodeHeader")}</Typography>
-      <Typography>{t("dressCodeBody")}</Typography>
+      <Typography variant="h5">"Dress Code Header"</Typography>
+      <Typography>"Dress code body"</Typography>
       <Box display="flex" paddingTop="12px">
         <Box
           component="img"

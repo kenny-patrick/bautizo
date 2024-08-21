@@ -1,7 +1,3 @@
-import countries from "i18n-iso-countries";
-import enLocale from "i18n-iso-countries/langs/en.json";
-import esLocale from "i18n-iso-countries/langs/es.json";
-
 import { Box, ThemeProvider, createTheme } from "@mui/material";
 
 import Date from "./components/Date";
@@ -13,16 +9,12 @@ import Intro from "./components/Intro";
 import DressCode from "./components/DressCode";
 import Rsvp from "./components/Rsvp";
 import Timer from "./components/Timer";
-import Children from "./components/Children";
 import Timeline from "./components/Timeline";
 import BibleVerse from "./components/BibleVerse";
 import Message from "./components/Message";
 import TopBorder from "./components/TopBorder";
 import BottomBorder from "./components/BottomBorder";
 import Audio from "./components/Audio";
-
-countries.registerLocale(enLocale);
-countries.registerLocale(esLocale);
 
 export default function App() {
   const customFontTheme = createTheme({
@@ -31,23 +23,23 @@ export default function App() {
       h4: {
         fontFamily: ["Norican", "serif"].join(","),
         fontWeight: 600,
-        color: "skyblue",
+        color: "skyblue"
       },
       h5: {
         fontFamily: ["Norican", "serif"].join(","),
         fontWeight: 600,
-        color: "skyblue",
+        color: "skyblue"
       },
       h6: {
         fontFamily: ["Norican", "serif"].join(","),
         fontWeight: 600,
-        color: "skyblue",
+        color: "skyblue"
       },
       button: {
         fontFamily: ["Open Sans Variable", "sans-serif"].join(","),
-        fontWeight: 600,
-      },
-    },
+        fontWeight: 600
+      }
+    }
   });
 
   return (
@@ -74,7 +66,6 @@ export default function App() {
           <Timeline />
           <Location />
           <Photos />
-          <Children />
           <Rsvp />
           <Message />
         </ThemeProvider>

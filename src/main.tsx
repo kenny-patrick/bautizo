@@ -8,7 +8,6 @@ import "@fontsource-variable/playfair-display";
 import "@fontsource-variable/open-sans";
 import App from "./App.tsx";
 
-import "./i18n.ts";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>

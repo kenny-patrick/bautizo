@@ -1,7 +1,5 @@
 import { AppBar, Box, Toolbar } from "@mui/material";
 
-import LanguageSelector from "./LanguageSelector";
-
 export default function NavBar() {
   return (
     <Box>
@@ -21,7 +19,6 @@ export default function NavBar() {
             alt="Logo with K & E initials without wedding date"
             src="/wedding/img/logo-nodate.png"
           />
-          <LanguageSelector />
         </Toolbar>
       </AppBar>
       <Toolbar />

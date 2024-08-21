@@ -1,8 +1,6 @@
 import { Box, Typography } from "@mui/material";
-import { useTranslation } from "react-i18next";
 
 export default function BibleVerse() {
-  const { t } = useTranslation();
   return (
     <Box display="flex" flexDirection="column" alignItems="center">
       <Box
@@ -12,8 +10,8 @@ export default function BibleVerse() {
         justifyContent="center"
         textAlign="center"
       >
-        <Typography>{t("bibleText")}</Typography>
-        <Typography>{t("bibleVerse")}</Typography>
+        <Typography>"Something about donkey genitals"</Typography>
+        <Typography>Ezekiel 23:20</Typography>
       </Box>
       <Box
         component="img"

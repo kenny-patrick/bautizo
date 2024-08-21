@@ -1,12 +1,9 @@
-import { AddToCalendarButton } from "add-to-calendar-button-react";
+// import { AddToCalendarButton } from "add-to-calendar-button-react";
 
-import { useTranslation } from "react-i18next";
 import { Box, Typography } from "@mui/material";
 
 export default function Date() {
-  const { t, i18n } = useTranslation();
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const language: any = i18n.language;
 
   return (
     <Box
@@ -15,9 +12,9 @@ export default function Date() {
       alignItems="center"
       textAlign="center"
     >
-      <Typography variant="h5">{t("dateHeader")}</Typography>
-      <Typography variant="body1">{t("dateText")}</Typography>
-      <AddToCalendarButton
+      <Typography variant="h5">Date Header</Typography>
+      <Typography variant="body1">Date Text</Typography>
+      {/* <AddToCalendarButton
         name={t("title")}
         location="LAS FLORES SALON Y JARDIN, Boulevard Las Bugambilias, Fraccionamiento Las Flores 801, El Herraje, 30019 Comitán de Domínguez, Chis., Mexico"
         startDate="2024-03-02"
@@ -36,7 +33,7 @@ export default function Date() {
         listStyle="modal"
         language={language}
         hideBranding
-      ></AddToCalendarButton>
+      ></AddToCalendarButton> */}
     </Box>
   );
 }
