@@ -1,19 +1,22 @@
 import { Box, Typography } from "@mui/material";
-import { useTranslation } from "react-i18next";
 
 export default function Parents() {
-  const { t } = useTranslation();
   return (
     <Box display="flex" flexDirection="column" alignItems="center">
-      <Typography>{t("blessing")}</Typography>
+      <Typography>Con la bendición de Dios</Typography>
       <Typography variant="h6" paddingTop="24px">
-        {t("groomParents")}
+        Las niñas
       </Typography>
-      <Typography>Brian William Patrick</Typography>
-      <Typography>Veronica Sauceda de la Fuente</Typography>
-      <Typography variant="h6">{t("brideParents")}</Typography>
-      <Typography>Manuel Aguilar Espinosa</Typography>
-      <Typography>Roselia Díaz Aguilar</Typography>
+      <Typography>Angelica Aitana Aguilar Solorzano</Typography>
+      <Typography>Edith Airana Aguilar Solorzano</Typography>
+      <Typography variant="h6">Padres de las niñas</Typography>
+      <Typography>Carlos Alberto Aguilar Diaz</Typography>
+      <Typography>Karina Solorzano Ramos</Typography>
+      <Typography variant="h6">Madrina de Angelica</Typography>
+      <Typography>Sra. María Amparo Solorzano Ramos</Typography>
+      <Typography variant="h6">Padrinos de Edith</Typography>
+      <Typography>Sr. Pedro Aguilar Santiz</Typography>
+      <Typography>Sra. María del Socorro Solorzano Ramos</Typography>
     </Box>
   );
 }

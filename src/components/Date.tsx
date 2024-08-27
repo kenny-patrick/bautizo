@@ -12,8 +12,14 @@ export default function Date() {
       alignItems="center"
       textAlign="center"
     >
-      <Typography variant="h5">Date Header</Typography>
-      <Typography variant="body1">Date Text</Typography>
+      <Typography variant="h5">Fecha del evento</Typography>
+      <Typography variant="body1">28 de septiembre de 2024</Typography>
+      <Typography variant="body1">
+        La misa será en la iglesia de Ranchería Laguna Larga
+      </Typography>
+      <Typography variant="body1">
+        Y la celebración en casa del Sr. Manuel Aguilar Espinoza
+      </Typography>
       {/* <AddToCalendarButton
         name={t("title")}
         location="LAS FLORES SALON Y JARDIN, Boulevard Las Bugambilias, Fraccionamiento Las Flores 801, El Herraje, 30019 Comitán de Domínguez, Chis., Mexico"

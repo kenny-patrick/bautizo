@@ -10,14 +10,14 @@ export default function NavBar() {
             justifyContent: "space-between",
             alignItems: "center",
             paddingTop: "8px",
-            paddingBottom: "8px",
+            paddingBottom: "8px"
           }}
         >
           <Box
             component="img"
             sx={{ width: "45px" }}
             alt="Logo with K & E initials without wedding date"
-            src="/wedding/img/logo-nodate.png"
+            src="/bautizo/img/logo-nodate.png"
           />
         </Toolbar>
       </AppBar>

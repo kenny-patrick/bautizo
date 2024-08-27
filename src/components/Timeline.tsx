@@ -23,7 +23,7 @@ export default function Timeline() {
             component="img"
             sx={{ width: "70px" }}
             alt="Logo with K & E initials without wedding date"
-            src="/wedding/img/6pm_ceremony_blue.jpeg"
+            src="/bautizo/img/6pm_ceremony_blue.jpeg"
           />
           <Typography>6:00 PM</Typography>
           <Typography>{t("timelineCeremony")}</Typography>
@@ -33,7 +33,7 @@ export default function Timeline() {
             component="img"
             sx={{ width: "70px" }}
             alt="Logo with K & E initials without wedding date"
-            src="/wedding/img/745pm_reception_blue.jpeg"
+            src="/bautizo/img/745pm_reception_blue.jpeg"
           />
           <Typography>7:45 PM</Typography>
           <Typography>{t("timelineReception")}</Typography>
@@ -43,7 +43,7 @@ export default function Timeline() {
             component="img"
             sx={{ width: "70px" }}
             alt="Logo with K & E initials without wedding date"
-            src="/wedding/img/8pm_dance_blue.jpeg"
+            src="/bautizo/img/8pm_dance_blue.jpeg"
           />
           <Typography>8:00 PM</Typography>
           <Typography>{t("timelineDance")}</Typography>
@@ -53,7 +53,7 @@ export default function Timeline() {
             component="img"
             sx={{ width: "70px" }}
             alt="Logo with K & E initials without wedding date"
-            src="/wedding/img/845pm_toast_blue.jpeg"
+            src="/bautizo/img/845pm_toast_blue.jpeg"
           />
           <Typography>8:45 PM</Typography>
           <Typography>{t("timelineToast")}</Typography>
@@ -63,7 +63,7 @@ export default function Timeline() {
             component="img"
             sx={{ width: "70px" }}
             alt="Logo with K & E initials without wedding date"
-            src="/wedding/img/9pm_dinner_blue.jpeg"
+            src="/bautizo/img/9pm_dinner_blue.jpeg"
           />
           <Typography>9:00 PM</Typography>
           <Typography>{t("timelineDinner")}</Typography>
@@ -73,7 +73,7 @@ export default function Timeline() {
             component="img"
             sx={{ width: "70px" }}
             alt="Logo with K & E initials without wedding date"
-            src="/wedding/img/3am_end_blue.jpeg"
+            src="/bautizo/img/3am_end_blue.jpeg"
           />
           <Typography>3:00 AM</Typography>
           <Typography>{t("timelineEnd")}</Typography>

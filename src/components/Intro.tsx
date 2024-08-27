@@ -1,26 +1,22 @@
 import { Box, ThemeProvider, Typography, createTheme } from "@mui/material";
-import { useTranslation } from "react-i18next";
 
-// Photo: 7349 7225
 export default function Intro() {
-  const { t } = useTranslation();
-
   const ourWeddingFont = createTheme({
     typography: {
       fontFamily: ["Playfair Display Variable", "serif"].join(","),
       h4: {
-        fontWeight: 600,
-      },
-    },
+        fontWeight: 600
+      }
+    }
   });
 
   const namesFont = createTheme({
     typography: {
       fontFamily: ["Norican", "sans-serif"].join(","),
       h2: {
-        color: "skyblue",
-      },
-    },
+        color: "skyblue"
+      }
+    }
   });
 
   return (
@@ -33,13 +29,13 @@ export default function Intro() {
       paddingRight="12px"
     >
       <ThemeProvider theme={ourWeddingFont}>
-        <Typography variant="h4">{t("ourWedding")}</Typography>
+        <Typography variant="h4">Mi Bautizo</Typography>
       </ThemeProvider>
 
       <ThemeProvider theme={namesFont}>
-        <Typography variant="h2">Kenny</Typography>
+        <Typography variant="h2">Angelica</Typography>
         <Typography variant="h2">&</Typography>
-        <Typography variant="h2">Elizabeth</Typography>
+        <Typography variant="h2">Edith</Typography>
       </ThemeProvider>
 
       <Box
@@ -47,7 +43,7 @@ export default function Intro() {
         paddingTop="12px"
         sx={{ width: "350px" }}
         alt="Photo with car in Comitan park"
-        src="/wedding/img/_DSC7349ALPE copia.jpg"
+        src="/bautizo/img/_DSC7349ALPE copia.jpg"
       />
     </Box>
   );

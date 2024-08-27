@@ -10,14 +10,14 @@ export default function BibleVerse() {
         justifyContent="center"
         textAlign="center"
       >
-        <Typography>"Something about donkey genitals"</Typography>
-        <Typography>Ezekiel 23:20</Typography>
+        <Typography>"Versiculo de la Biblia"</Typography>
+        <Typography>Genesis 1:1</Typography>
       </Box>
       <Box
         component="img"
         sx={{ width: "96px" }}
         alt="Image of two lovebirds"
-        src="/wedding/img/birds_blue.jpeg"
+        src="/bautizo/img/birds_blue.jpeg"
       />
     </Box>
   );

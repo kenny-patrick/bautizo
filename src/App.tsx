@@ -1,15 +1,12 @@
 import { Box, ThemeProvider, createTheme } from "@mui/material";
 
 import Date from "./components/Date";
-import NavBar from "./components/NavBar";
+// import NavBar from "./components/NavBar";
 import Photos from "./components/Photos";
 import Location from "./components/Location";
 import Parents from "./components/Parents";
 import Intro from "./components/Intro";
-import DressCode from "./components/DressCode";
-import Rsvp from "./components/Rsvp";
 import Timer from "./components/Timer";
-import Timeline from "./components/Timeline";
 import BibleVerse from "./components/BibleVerse";
 import Message from "./components/Message";
 import TopBorder from "./components/TopBorder";
@@ -44,7 +41,7 @@ export default function App() {
 
   return (
     <div>
-      <NavBar></NavBar>
+      {/* <NavBar></NavBar> */}
       <TopBorder />
       <Box
         display="flex"
@@ -60,13 +57,10 @@ export default function App() {
           <Audio />
           <BibleVerse />
           <Parents />
-          <Timer />
           <Date />
-          <DressCode />
-          <Timeline />
+          <Timer />
           <Location />
           <Photos />
-          <Rsvp />
           <Message />
         </ThemeProvider>
       </Box>

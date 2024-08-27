@@ -13,7 +13,7 @@ export default function BottomBorder() {
         sx={{ width: { xs: "100%", sm: "100%", md: "100%", lg: "900px" } }}
         component="img"
         alt="Floral Top Border"
-        src="/wedding/img/bottom_border1.png"
+        src="/bautizo/img/bottom_border1.png"
       />
     </Box>
   );

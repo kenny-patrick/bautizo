@@ -15,7 +15,7 @@ export default function Message() {
         component="img"
         sx={{ width: "100px" }}
         alt="Logo with K & E initials without wedding date"
-        src="/wedding/img/logo-nodate.png"
+        src="/bautizo/img/logo-nodate.png"
       />
       <Typography>{t("finalMessage")}</Typography>
       <Typography variant="h5">{t("goodbye")}</Typography>
