@@ -10,11 +10,12 @@ export default function Intro() {
     }
   });
 
+  const mainText = "#d4af37";
   const namesFont = createTheme({
     typography: {
       fontFamily: ["Norican", "sans-serif"].join(","),
       h2: {
-        color: "skyblue"
+        color: mainText
       }
     }
   });
