@@ -9,8 +9,8 @@ import Intro from "./components/Intro";
 import Timer from "./components/Timer";
 import BibleVerse from "./components/BibleVerse";
 import Message from "./components/Message";
-import TopBorder from "./components/TopBorder";
-import BottomBorder from "./components/BottomBorder";
+// import TopBorder from "./components/TopBorder";
+// import BottomBorder from "./components/BottomBorder";
 import Audio from "./components/Audio";
 
 export default function App() {
@@ -68,7 +68,7 @@ export default function App() {
   return (
     <div>
       {/* <NavBar></NavBar> */}
-      <TopBorder />
+      {/* <TopBorder /> */}
       <Box
         display="flex"
         flexDirection="column"
@@ -91,7 +91,7 @@ export default function App() {
           <Message />
         </ThemeProvider>
       </Box>
-      <BottomBorder />
+      {/* <BottomBorder /> */}
     </div>
   );
 }
