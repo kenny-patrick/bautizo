@@ -12,6 +12,9 @@ export default function Timer() {
   const countdownTheme = createTheme({
     typography: {
       fontFamily: ["Playfair Display Variable", "serif"].join(","),
+      h3: {
+        color: "#4d4637"
+      },
       h4: {
         fontFamily: ["Playfair Display Variable", "serif"].join(","),
         fontweight: 600,

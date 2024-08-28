@@ -5,7 +5,8 @@ export default function Intro() {
     typography: {
       fontFamily: ["Playfair Display Variable", "serif"].join(","),
       h4: {
-        fontWeight: 600
+        fontWeight: 600,
+        color: "#4d4637"
       }
     }
   });

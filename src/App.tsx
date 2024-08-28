@@ -15,14 +15,15 @@ import Audio from "./components/Audio";
 
 export default function App() {
   const mainText = "#d4af37";
+  const bodyText = "#4d4637";
 
   const customFontTheme = createTheme({
     palette: {
       primary: {
-        light: "#ff7961",
-        main: "#f44336",
+        light: "#b3aa99",
+        main: "#4d4637",
         dark: "#ba000d",
-        contrastText: "#000"
+        contrastText: "white"
       },
       secondary: {
         light: "#757ce8",
@@ -33,6 +34,15 @@ export default function App() {
     },
     typography: {
       fontFamily: ["Playfair Display Variable", "serif"].join(","),
+      body1: {
+        color: bodyText
+      },
+      subtitle1: {
+        color: bodyText
+      },
+      subtitle2: {
+        color: bodyText
+      },
       h4: {
         fontFamily: ["Norican", "serif"].join(","),
         fontWeight: 600,
@@ -67,6 +77,7 @@ export default function App() {
         paddingBottom="48px"
         gap="24px"
         px={{ xs: 1, sm: 16, md: 32, lg: 48 }}
+        // sx={{ bgcolor: "#b3aa99" }}
       >
         <ThemeProvider theme={customFontTheme}>
           <Intro />
