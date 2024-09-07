@@ -77,7 +77,7 @@ export default function App() {
         paddingBottom="48px"
         gap="24px"
         px={{ xs: 1, sm: 16, md: 32, lg: 48 }}
-        // sx={{ bgcolor: "#b3aa99" }}
+        // sx={{ bgcolor: "#b3aa99"  }}
       >
         <ThemeProvider theme={customFontTheme}>
           <Intro />
