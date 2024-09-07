@@ -3,8 +3,6 @@
 import { Box, Typography } from "@mui/material";
 
 export default function Date() {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-
   return (
     <Box
       display="flex"
@@ -13,12 +11,12 @@ export default function Date() {
       textAlign="center"
     >
       <Typography variant="h5">Fecha del evento</Typography>
-      <Typography variant="body1">28 de septiembre de 2024</Typography>
+      <Typography variant="body1">28 de septiembre del 2024</Typography>
+      <Typography variant="h5">MISA</Typography>
+      <Typography variant="body1">Iglesia de Ranchería Laguna Larga</Typography>
+      <Typography variant="h5">RECEPCION</Typography>
       <Typography variant="body1">
-        La misa será en la iglesia de Ranchería Laguna Larga
-      </Typography>
-      <Typography variant="body1">
-        Y la celebración en casa del Sr. Manuel Aguilar Espinoza
+        Casa del Sr. Manuel Aguilar Espinosa
       </Typography>
       {/* <AddToCalendarButton
         name={t("title")}

@@ -3,12 +3,12 @@ import { Box, ThemeProvider, createTheme } from "@mui/material";
 import Date from "./components/Date";
 // import NavBar from "./components/NavBar";
 import Photos from "./components/Photos";
-import Location from "./components/Location";
+// import Location from "./components/Location";
 import Parents from "./components/Parents";
 import Intro from "./components/Intro";
 import Timer from "./components/Timer";
 import BibleVerse from "./components/BibleVerse";
-import Message from "./components/Message";
+// import Message from "./components/Message";
 // import TopBorder from "./components/TopBorder";
 // import BottomBorder from "./components/BottomBorder";
 import Audio from "./components/Audio";
@@ -84,11 +84,10 @@ export default function App() {
           <Audio />
           <BibleVerse />
           <Parents />
-          <Date />
           <Timer />
-          <Location />
+          <Date />
           <Photos />
-          <Message />
+          {/* <Message /> */}
         </ThemeProvider>
       </Box>
       {/* <BottomBorder /> */}

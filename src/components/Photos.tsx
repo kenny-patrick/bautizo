@@ -3,7 +3,8 @@ import { Box, Typography } from "@mui/material";
 import PhotoAlbum from "react-photo-album";
 import Lightbox from "yet-another-react-lightbox";
 
-import slides from "../data/slides";
+import fullsize from "../data/slides";
+import thumbnails from "../data/thumbnails";
 
 export default function Photos() {
   const [index, setIndex] = useState(-1);
@@ -19,14 +20,14 @@ export default function Photos() {
       <Box maxWidth="800px">
         <PhotoAlbum
           layout="columns"
-          photos={slides}
+          photos={thumbnails}
           targetRowHeight={200}
           rowConstraints={{ maxPhotos: 4 }}
           onClick={({ index: current }) => setIndex(current)}
         />
         <Lightbox
           index={index}
-          slides={slides}
+          slides={fullsize}
           open={index >= 0}
           close={() => setIndex(-1)}
         />

@@ -1,1 +1,7 @@
-{}
+{
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "trailingComma": "none",
+    "printWidth": 80,
+    "semi": true
+}

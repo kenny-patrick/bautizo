@@ -43,9 +43,11 @@ export default function Intro() {
       <Box
         component="img"
         paddingTop="12px"
-        sx={{ width: "350px" }}
-        alt="Photo with car in Comitan park"
-        src="/bautizo/img/_DSC7349ALPE copia.jpg"
+        paddingLeft="10em"
+        paddingRight="10em"
+        maxWidth="600px"
+        alt="Angelica & Edith"
+        src="/bautizo/img/fullsize/071A6494.jpg"
       />
     </Box>
   );

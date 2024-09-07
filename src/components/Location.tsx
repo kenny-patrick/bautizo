@@ -14,7 +14,7 @@ export default function Location() {
           padding: "12px",
           maxWidth: "400px",
           marginTop: "12px",
-          marginBottom: "12px",
+          marginBottom: "12px"
         }}
       >
         <Box display="flex" flexDirection="column" alignItems="center">
@@ -33,7 +33,7 @@ export default function Location() {
               const newWindow = window.open(
                 mapsUrl,
                 "_blank",
-                "noopener,noreferrer",
+                "noopener,noreferrer"
               );
               if (newWindow) newWindow.opener = null;
             }}

@@ -8,12 +8,11 @@ import "@fontsource-variable/playfair-display";
 import "@fontsource-variable/open-sans";
 import App from "./App.tsx";
 
-
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Suspense fallback={<div>Loading...</div>}>
       <CssBaseline />
       <App />
     </Suspense>
-  </React.StrictMode>,
+  </React.StrictMode>
 );
