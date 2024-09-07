@@ -1,4 +1,4 @@
-import { Box, ThemeProvider, createTheme } from "@mui/material";
+import { Container, ThemeProvider, createTheme } from "@mui/material";
 
 import Date from "./components/Date";
 // import NavBar from "./components/NavBar";
@@ -66,10 +66,8 @@ export default function App() {
   });
 
   return (
-    <div>
-      {/* <NavBar></NavBar> */}
-      {/* <TopBorder /> */}
-      <Box
+    <Container maxWidth="sm" sx={{ paddingBottom: "36px" }}>
+      {/* <Box
         display="flex"
         flexDirection="column"
         justifyContent="center"
@@ -78,19 +76,18 @@ export default function App() {
         gap="24px"
         px={{ xs: 1, sm: 16, md: 32, lg: 48 }}
         // sx={{ bgcolor: "#b3aa99"  }}
-      >
-        <ThemeProvider theme={customFontTheme}>
-          <Intro />
-          <Audio />
-          <BibleVerse />
-          <Parents />
-          <Timer />
-          <Date />
-          <Photos />
-          {/* <Message /> */}
-        </ThemeProvider>
-      </Box>
-      {/* <BottomBorder /> */}
-    </div>
+      > */}
+      <ThemeProvider theme={customFontTheme}>
+        <Intro />
+        <Audio />
+        <BibleVerse />
+        <Parents />
+        <Timer />
+        <Date />
+        <Photos />
+        {/* <Message /> */}
+      </ThemeProvider>
+      {/* </Box> */}
+    </Container>
   );
 }

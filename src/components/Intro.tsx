@@ -29,6 +29,7 @@ export default function Intro() {
       alignItems="center"
       paddingLeft="12px"
       paddingRight="12px"
+      paddingBottom="24px"
     >
       <ThemeProvider theme={ourWeddingFont}>
         <Typography variant="h4">Mi Bautizo</Typography>
@@ -43,9 +44,7 @@ export default function Intro() {
       <Box
         component="img"
         paddingTop="12px"
-        paddingLeft="10em"
-        paddingRight="10em"
-        maxWidth="600px"
+        sx={{ maxWidth: { xs: 350, md: 500 } }}
         alt="Angelica & Edith"
         src="/bautizo/img/fullsize/071A6494.jpg"
       />

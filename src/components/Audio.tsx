@@ -5,7 +5,13 @@ export default function Audio() {
   const volume = 50;
   const src = "/bautizo/audio/brillas.mp3";
   return (
-    <Box display="flex" flexDirection="column" alignItems="center">
+    <Box
+      display="flex"
+      flexDirection="column"
+      alignItems="center"
+      maxWidth="500px"
+      paddingBottom="24px"
+    >
       <AudioPlayer preload="none" width="80%" volume={volume} src={src} />
     </Box>
   );
