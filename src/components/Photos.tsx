@@ -3,7 +3,7 @@ import { Box, Typography } from "@mui/material";
 import PhotoAlbum from "react-photo-album";
 import Lightbox from "yet-another-react-lightbox";
 
-// import fullsize from "../data/slides";
+import fullsize from "../data/slides";
 import thumbnails from "../data/thumbnails";
 
 export default function Photos() {
@@ -27,7 +27,7 @@ export default function Photos() {
         />
         <Lightbox
           index={index}
-          slides={thumbnails}
+          slides={fullsize}
           open={index >= 0}
           close={() => setIndex(-1)}
         />
