@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Box, Typography } from "@mui/material";
 import PhotoAlbum from "react-photo-album";
 import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 
 // import fullsize from "../data/slides";
 import thumbnails from "../data/thumbnails";
