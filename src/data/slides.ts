@@ -43,8 +43,8 @@ export const slides = [
   },
   {
     src: `${path}/071A6505.jpg`,
-    width: 4000,
-    height: 6000
+    width: 2481,
+    height: 5075
   },
   {
     src: `${path}/071A6529.jpg`,

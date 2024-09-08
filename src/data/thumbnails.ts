@@ -43,8 +43,8 @@ export const thumbnails = [
   },
   {
     src: `${path}/071A6505.jpg`,
-    width: 800,
-    height: 1200
+    width: 505,
+    height: 1038
   },
   {
     src: `${path}/071A6529.jpg`,
