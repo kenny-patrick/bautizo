@@ -46,7 +46,7 @@ export default function Intro() {
         paddingTop="12px"
         sx={{ maxWidth: { xs: 350, md: 500 } }}
         alt="Angelica & Edith"
-        src="/bautizo/img/fullsize/071A6494.jpg"
+        src="/bautizo/img/thumbnail/071A6494.jpg"
       />
     </Box>
   );
