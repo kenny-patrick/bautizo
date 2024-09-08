@@ -9,10 +9,9 @@ export default function Audio() {
       display="flex"
       flexDirection="column"
       alignItems="center"
-      maxWidth="500px"
       paddingBottom="24px"
     >
-      <AudioPlayer preload="none" width="80%" volume={volume} src={src} />
+      <AudioPlayer preload="none" width="90%" volume={volume} src={src} />
     </Box>
   );
 }
