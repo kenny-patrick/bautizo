@@ -14,7 +14,9 @@ export default function Parents() {
         {/* Second Column */}
         <Grid item xs={12} md={6} textAlign="center">
           <Typography variant="h6">Padrinos</Typography>
-          <Typography>Sra. María Amparo Solorzano Ramos</Typography>
+          <Typography marginBottom="12px">
+            Sra. María Amparo Solorzano Ramos
+          </Typography>
           <Typography>Sr. Pedro Aguilar Santiz</Typography>
           <Typography>Sra. María del Socorro Solorzano Ramos</Typography>
         </Grid>

@@ -20,6 +20,9 @@ export default function Date() {
           <Typography variant="body1">
             Iglesia de Ranchería Laguna Larga
           </Typography>
+          <Typography variant="body1" style={{ fontSize: "24px" }}>
+            9 am
+          </Typography>
         </Grid>
         <Grid item xs={6} md={6}>
           <Grid item xs={12} md={12}>
@@ -32,6 +35,9 @@ export default function Date() {
           <Typography variant="h5">RECEPCION</Typography>
           <Typography variant="body1">
             Casa del Sr. Manuel Aguilar Espinosa
+          </Typography>
+          <Typography variant="body1" style={{ fontSize: "24px" }}>
+            2 pm
           </Typography>
         </Grid>
       </Grid>
