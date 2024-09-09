@@ -13,12 +13,6 @@ export default function BibleVerse() {
         <Typography>"Versiculo de la Biblia"</Typography>
         <Typography>Genesis 1:1</Typography>
       </Box>
-      <Box
-        component="img"
-        sx={{ width: "96px" }}
-        alt="Image of two lovebirds"
-        src="/bautizo/img/birds_blue.jpeg"
-      />
     </Box>
   );
 }
