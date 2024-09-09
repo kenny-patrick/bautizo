@@ -82,8 +82,8 @@ export default function App() {
         <Audio />
         <BibleVerse />
         <Parents />
-        <Timer />
         <Date />
+        <Timer />
         <Photos />
         {/* <Message /> */}
       </ThemeProvider>
