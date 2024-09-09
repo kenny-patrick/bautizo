@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Grid, Typography } from "@mui/material";
 
 export default function BibleVerse() {
   return (
@@ -19,6 +19,15 @@ export default function BibleVerse() {
         encenderá en nuestro corazón para iluminar todo el camino de nuestra
         vida."
       </Typography>
+      <Grid item xs={6} md={6}>
+        <Grid item xs={12} md={12}>
+          <img
+            src="/bautizo/img/dove.png"
+            alt="Event Image"
+            style={{ maxWidth: "25%", height: "auto" }}
+          />
+        </Grid>
+      </Grid>
     </Box>
   );
 }

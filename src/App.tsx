@@ -11,6 +11,7 @@ import BibleVerse from "./components/BibleVerse";
 // import Message from "./components/Message";
 import Border from "./components/Border";
 import Audio from "./components/Audio";
+import Message from "./components/Message";
 
 export default function App() {
   const mainText = "#d4af37";
@@ -75,6 +76,7 @@ export default function App() {
         <Date />
         <Timer />
         <Photos />
+        <Message />
         <Border imgSrc={"/bautizo/img/border/floral_bottom.png"} />
       </ThemeProvider>
     </Container>

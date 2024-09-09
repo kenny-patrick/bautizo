@@ -1,8 +1,6 @@
 import { Box, Typography } from "@mui/material";
-import { useTranslation } from "react-i18next";
 
 export default function Message() {
-  const { t } = useTranslation();
   return (
     <Box
       display="flex"
@@ -13,12 +11,11 @@ export default function Message() {
     >
       <Box
         component="img"
-        sx={{ width: "100px" }}
-        alt="Logo with K & E initials without wedding date"
-        src="/bautizo/img/logo-nodate.png"
+        sx={{ maxWidth: "50%" }}
+        alt="Logo with A & E initials"
+        src="/bautizo/img/17.png"
       />
-      <Typography>{t("finalMessage")}</Typography>
-      <Typography variant="h5">{t("goodbye")}</Typography>
+      <Typography variant="h5">¡Te esperamos!</Typography>
     </Box>
   );
 }
