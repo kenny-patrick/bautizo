@@ -24,3 +24,6 @@ bundle-visualization.html
 *.njsproj
 *.sln
 *.sw?
+
+open-ai-key
+.aider*

@@ -11,7 +11,7 @@ export default function Photos() {
   const [index, setIndex] = useState(-1);
 
   return (
-    <Box display="flex" flexDirection="column">
+    <Box display="flex" flexDirection="column" paddingBottom="12px">
       <Typography variant="h5" alignSelf="center">
         Fotos
       </Typography>

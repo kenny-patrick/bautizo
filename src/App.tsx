@@ -9,8 +9,7 @@ import Intro from "./components/Intro";
 import Timer from "./components/Timer";
 import BibleVerse from "./components/BibleVerse";
 // import Message from "./components/Message";
-// import TopBorder from "./components/TopBorder";
-// import BottomBorder from "./components/BottomBorder";
+import Border from "./components/Border";
 import Audio from "./components/Audio";
 
 export default function App() {
@@ -67,17 +66,8 @@ export default function App() {
 
   return (
     <Container maxWidth="sm" sx={{ paddingBottom: "36px" }}>
-      {/* <Box
-        display="flex"
-        flexDirection="column"
-        justifyContent="center"
-        padding="12px"
-        paddingBottom="48px"
-        gap="24px"
-        px={{ xs: 1, sm: 16, md: 32, lg: 48 }}
-        // sx={{ bgcolor: "#b3aa99"  }}
-      > */}
       <ThemeProvider theme={customFontTheme}>
+        <Border imgSrc={"/bautizo/img/border/floral_top.png"} />
         <Intro />
         <Audio />
         <BibleVerse />
@@ -85,9 +75,8 @@ export default function App() {
         <Date />
         <Timer />
         <Photos />
-        {/* <Message /> */}
+        <Border imgSrc={"/bautizo/img/border/floral_bottom.png"} />
       </ThemeProvider>
-      {/* </Box> */}
     </Container>
   );
 }
