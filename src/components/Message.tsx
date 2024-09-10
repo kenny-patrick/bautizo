@@ -14,6 +14,7 @@ export default function Message() {
         sx={{ maxWidth: "50%" }}
         alt="Logo with A & E initials"
         src="/bautizo/img/logo.png"
+        marginBottom="-36px"
       />
       <Typography variant="h5">¡Te esperamos!</Typography>
     </Box>
