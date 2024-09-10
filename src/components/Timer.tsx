@@ -67,7 +67,7 @@ export default function Timer() {
       );
     }
   };
-  const date = Date.parse("28 Sep 2024 00:00:00 GMT");
+  const date = Date.parse("28 Sep 2024 15:00:00 UTC");
   return (
     <Box display="flex" flexDirection="column" alignItems="center">
       <ThemeProvider theme={countdownTheme}>
